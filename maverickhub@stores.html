@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaverickHub - Trendy Men's Fashion</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .home, .about, .products, .contact, .blog, .login, .admin {
+            padding: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h2 {
+            color: #222;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .login-form, .admin-form {
+            background-color: #eee;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: auto;
+        }
+        .login-form input, .admin-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button, .admin-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-form button:hover, .admin-form button:hover {
+            background-color: #555;
+        }
+        .admin-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MaverickHub</h1>
+        <p>Trendy Men's Fashion</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+        <a href="#login">Login</a>
+        <a href="#admin">Admin</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="home">
+            <h2>Welcome to MaverickHub</h2>
+            <p>Your ultimate destination for trendy men's fashion. Discover the latest styles and must-have outfits, curated to keep you ahead of the fashion curve.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>At MaverickHub, our mission is to make it easy for men to look their best. We focus on quality, affordability, and convenience through affiliate marketing. Our curated selection of apparel ensures you always find the perfect outfit for any occasion.</p>
+        </section>
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <p>Explore our categories:</p>
+            <ul>
+                <li>Trending Outfits</li>
+                <li>Formal Wear</li>
+                <li>Casual Attire</li>
+                <li>Accessories</li>
+                <li>Footwear</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:maverickhub07@gmail.com">maverickhub07@gmail.com</a></p>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Fashion tips, trends, and updates.</p>
+            <!-- Placeholder for blog content -->
+        </section>
+        <section id="login" class="login">
+            <h2>Login</h2>
+            <form class="login-form" action="login.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="admin" class="admin">
+            <h2>Admin</h2>
+            <form class="admin-form" action="admin.php" method="post">
+                <label for="admin-password">Admin Password:</label>
+                <input type="password" id="admin-password" name="admin-password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p class="admin-link">To upload products, use the admin panel.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 MaverickHub. All rights reserved.</p>
+        <p>Visit our store: <a href="MaverickHub@stores">MaverickHub@stores</a></p>
+    </footer>
+</body>
+</html>
